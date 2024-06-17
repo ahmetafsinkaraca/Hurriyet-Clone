@@ -1,0 +1,115 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.swiper-pagination{
+    position: relative;
+    width: 30rem !important;
+    bottom: 1rem;
+}
+
+.swiper-pagination .swiper-pagination-bullet {
+
+width: 30px !important;
+height: 30px;
+line-height: 25px;
+font-size:20px;
+color: black;
+opacity: 1;
+background: white;
+}
+.swiper-pagination .swiper-pagination-bullet-active{
+    color: white;
+    background: red;
+}
+
+.other1{
+    height: 40;
+}
+
+.mySwiper{
+    height: 40
+}
+
+.swiper-button-next-header{
+    background-color: red !important;
+}
+
+.swiper-slide {
+    width: fit-content !important;
+    margin:  0 !important;
+}
+
+.swiper-slide::after {
+    content: "";
+    margin: auto 20px;
+    border-top: 25px solid #d9d9d9;
+    width: 1px;
+   
+}
+
+.second-swiper .swiper-slide::after {
+    content: "";
+    margin: auto 7px;
+    border-top: 25px solid #d9d9d9;
+    width: 1px;
+}
+
+.third-swiper .swiper-slide::after {
+    content: "";
+    margin: auto -4px;
+    border-top: 25px solid #d9d9d9;
+    width: 1px;
+}
+
+
+
+.swiper-pagination-custom {
+    position: relative;
+    width: 4rem !important;
+    bottom: 1rem;
+}
+
+.swiper-pagination-custom  .swiper-pagination-bullet {
+width: 16px;
+height: 16px;
+text-align: center;
+line-height: 25px;
+font-size:20px;
+color: black;
+opacity: 1;
+background:rgb(244, 244, 245);
+border: 1px solid black; /* Dış çizgi */
+}
+
+.swiper-pagination-custom  .swiper-pagination-bullet-active{
+    color: rgb(244, 244, 245);
+    background: black;
+}
+
+.video-wrapper {
+    width: 830px;
+    max-width: 100%; 
+    object-fit: contain; 
+}
+
+
+/*
+.video-wrapper {
+    width: 100%; 
+    max-width: 100%; 
+    height: auto; 
+    padding-bottom: 53%; 
+    position: relative; 
+    overflow: hidden; 
+}
+
+.video-wrapper > * {
+    position: absolute; 
+    width: 100%; 
+    height: 100%; 
+    top: 0; 
+    left: 0; 
+}
+*/
